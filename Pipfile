@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "2.0.1"
+numpy = "1.25.2"
+pillow = "10.0.0"
+clip = {path = "./CLIP"}
+flet = "0.9.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
